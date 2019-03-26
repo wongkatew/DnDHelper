@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- Property of Kate Wong.-->
+<html lang="en">
+<head>
+  <title>DnD Helper</title>
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<link href="css/custom.css" rel="stylesheet"/>
+  <!--link rel="icon" href="images/mainlogo.png"/-->
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+  <div class="col">
+    <div class="row">
+      <h1>DnD Helper</h1>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h2>Campaigns</h2>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-info" id="newcampaign">Create New Campaign</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <button type="button" class="btn btn-primary campaign" id="camp1">La Jolly Spooktacular</button>
+      </div>
+    </div>
+    <div class="row" id="role">
+      <div class="col">
+        <div class="row">
+          <div class="col">
+            <p>Dungeon Master or Player?</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn btn-secondary" id="dm">Dungeon Master</button>
+            <button type="button" class="btn btn-secondary" id="pc">Player</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="whichpc">
+      <div class="col">
+        <div class="row">
+          <div class="col">
+            <p>Which Player?</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn btn-secondary playerbtn" id="Sam">Sam</button>
+            <button type="button" class="btn btn-secondary playerbtn" id="Sera">Sera</button>
+            <button type="button" class="btn btn-secondary playerbtn" id="Stella">Stella</button>
+            <button type="button" class="btn btn-secondary playerbtn" id="Ube">Ube</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="row" id="go">
+    <div class="col">
+        <button type="button" class="btn btn-primary playerbtn" id="4">Dive In</button>
+    </div>
+  </div>
+</body>
